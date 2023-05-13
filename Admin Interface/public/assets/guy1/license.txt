@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fall Guys middle skin
+* source:	https://sketchfab.com/3d-models/fall-guys-middle-skin-8261ec8f030141a2a84d2f2abaf38f4e
+* author:	giorgiowar93 (https://sketchfab.com/giorgiowar93)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fall Guys middle skin" (https://sketchfab.com/3d-models/fall-guys-middle-skin-8261ec8f030141a2a84d2f2abaf38f4e) by giorgiowar93 (https://sketchfab.com/giorgiowar93) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

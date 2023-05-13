@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Three.js Tutorials by Sean Bradley : https://sbcode.net/threejs/
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0px;
+      }
+      #info {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #speed {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #health {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #fueldistance {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #time {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #score {
+        position: absolute;
+        top: 110px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #mileage {
+        position: absolute;
+        top: 130px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: black;
+      }
+      #bluescore {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        text-align: left;
+        z-index: 100;
+        display: block;
+        color: blue;
+      }
+      #redscore {
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        text-align: left;
+        z-index: 100;
+        display: block;
+        color: red;
+      }
+      #greenscore {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        text-align: left;
+        z-index: 100;
+        display: block;
+        color: green;
+      }
+    </style>
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script
+      async
+      src="https://unpkg.com/es-module-shims@1.6.2/dist/es-module-shims.js"
+    ></script>
+
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="game">
+      <div id="info">Description</div>
+      <div id="speed">Description</div>
+      <div id="health">Description</div>
+      <div id="fueldistance">Description</div>
+      <div id="time">Description</div>
+      <div id="score">Description</div>
+      <div id="bluescore">Description</div>
+      <div id="greenscore">Description</div>
+      <div id="redscore">Description</div>
+      <div id="mileage">Description</div>
+
+    </div>
+    <div id="main">
+      <h1>Press w to accelarate</h1>
+      <h1>Press s to brake or go back</h1>
+      <h1>Use A and D to steer</h1>
+      <button id="myBtn">Start</button>
+    </div>
+    <div id="fuelend">
+      <h1>Player out of fuel</h1>
+      <h1>Game over</h1>
+    </div>
+    <div id="healthend">
+      <h1>Player out of health</h1>
+      <h1>Game over</h1>
+    </div>
+    <script type="module" src="client.js"></script>
+  </body>
+</html>

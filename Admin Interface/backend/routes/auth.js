@@ -1,0 +1,15 @@
+const express = require('express')
+const router = express.Router()
+
+const { signup, signin } = require('../controllers/auth')
+const { profile } = require('../controllers/profile')
+const { getprices, updateprices, addcenter, getcenters, changeavailibility} = require('../controllers/adminstration')
+router.post('/signup', signup)
+router.post('/signin', signin)
+router.post('/profile', profile)
+router.post('/getprices', getprices)
+router.post('/updateprices', updateprices)
+router.post('/addcenter', addcenter)
+router.post('/getcenters', getcenters)
+router.post('/changeavailibility', changeavailibility)
+module.exports = router
